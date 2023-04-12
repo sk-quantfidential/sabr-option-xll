@@ -1,4 +1,4 @@
-// xll_template.h - common includes
+// xll_sabr_option.h - common includes
 #pragma once
 // Uncomment to build for pre 2007 Excel
 //#define XLOPERX XLOPER

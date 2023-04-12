@@ -1,6 +1,6 @@
-﻿// xll_template.cpp - Sample xll project.
+﻿// xll_sabr_option.cpp - Sample xll project.
 #include <cmath> // for double tgamma(double)
-#include "xll_template.h"
+#include "xll_sabr_option.h"
 
 using namespace xll;
 
@@ -58,7 +58,7 @@ int WINAPI xll_macro(void)
 // Use `xsltproc file.xml -o file.html` to create HTML documentation.
 Auto<Open> xao_template_docs([]() {
 
-	return Documentation("MATH", "Documentation for the xll_template add-in.");
+	return Documentation("MATH", "Documentation for the xll_sabr_option add-in.");
 
 });
 
